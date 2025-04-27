@@ -122,6 +122,15 @@ function onAnswerPicked(engine, answerPicked) {
     PublicSupport -= 1;
     sundog += 1;
     }
+    // WhiteWater CYOA
+    if (ans == 25 || ans == 27) {
+    PublicSupport -= 2;
+    }
+    if (ans == 26) {
+    CasesSettled += 1;
+    PublicSupport -= 1;
+    sundog += 1;
+    }
 }
 
 function onScenarioStarted(engine) {
