@@ -4959,13 +4959,201 @@
                 {
                     "id": "question_6_dont_show_dont_tell",
                     "description": "Your plans to allow members of the homosexual community to serve openly in the military have faced serious resistance from military leadership, as expected, but now, conservatives and religious leaders from St. Louis to Baton Rouge are piling on. Military generals are even threatening to resign en masse if it's allowed. After a lot of discussion, General Colin Powell presents you with a compromise: recruiters won’t ask about an individual's sexual orientation, but the military will retain the right to discharge those who are openly gay. It sounds tempting to bite the bullet and move on, but backlash from gay rights activists is already brewing, your cabinet is divided, and you’re caught in the middle.",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 56,
+                            "description": "No dice. This is a fine bill, but I'm no fool. Timing matters, and when the moment’s right, we’ll push this through again.",
+                            "feedback": "You thought you could run from the issue like you usually do, but you underestimated just how much backlash you'd get from your gay supporters. The Blue Dogs are happy, sure, but the activists who backed you feel tossed aside. You weren’t trying to take a stand or duck the fight. You just didn’t want to hold the damn thing any longer than you had to. They'll never get it.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.001
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.02
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.02
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": -0.15
+                                }
+                            ]
+                        },
+                        {
+                            "id": 57,
+                            "description": "We’re not bending the knee. I made a promise to these folks and I’m not gonna break it now. These people have no voice, so I ought to use mine to defend them.",
+                            "feedback": "Your confidence in the American people to welcome such reform was lost to an insane extent. Generals began handing in their resignation papers, and Blue Dog Democrats threatened to walk—and publicly abandon your administration. In a rare moment of unity, Republicans and Democrats swiftly joined forces to overturn your order, just in time. A generation of gay Americans will remember the day you fell on your sword for them. But for what?",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0441
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.0224
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.0111
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 79,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0561
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": 0.6,
+                                    "weight": 1.5
+                                }
+                            ]
+                        },
+                        {
+                            "id": 58,
+                            "description": "I don’t like this. It’s not fair to millions of Americans. But the truth is, this is probably the best we’re gonna get right now. I’ll take this compromise to Congress and see it through.",
+                            "feedback": "''Don’t Ask, Don’t Tell'' takes effect in late December of 1993, leaving just about everyone in the country dissatisfied, besides you, of course. When you saw the initial reactions pouring in from both sides—activists fuming, generals grumbling, you leaned back, sighed, and cracked a dry little laugh. Perfect. That’s how you know it’s a real compromise.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.0016
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.00075
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": -0.01
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true
                 },
                 {
                     "id": "budget_3",
                     "description": "Another unfortunate inheritance from the Reagan years: a slew of scientific projects marked by bloated costs and questionable value. The Texas Super Collider and the International Space Station are now under bipartisan attack, seen by many as overambitious endeavors with little practical return, as a coalition of deficit hawks lines up to cut them to pieces. ",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 59,
+                            "description": "While I think that billion-dollar hole in Texas really has no place in the modern day other than as a prestige project, I feel like we can't abandon our place among the stars to the rest of the world. The ISS has to keep its place, plain and simple.",
+                            "feedback": "With a bare majority, ISS funding is saved from cancellation. Some will call your callous disregard for the less sexy parts of science the day physics died — but you had to pick your fights, and Kennedy’s promise to America was maintained.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.01
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": 0.3,
+                                    "weight": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 60,
+                            "description": "It's true that those projects have been massively over budget for years now. Still, much like the car industry, our edge in technology may be lost if we aren’t willing to walk the walk, as expensive as it may be. We'll fight on to ensure that everything already spent doesn’t end up meaning nothing.",
+                            "feedback": "While the ISS would be saved with a simple vote, no one can agree on what to do with the Texas Super Collider. In the end, the barest of budgets was given to it to continue its operation at a glacial pace. It isn’t dead, but you’ll need a lot more energy to make it walk again.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0121
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": 0.4,
+                                    "weight": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 61,
+                            "description": "We had promises made to the people, and we have to answer to them clearly. If those projects are too expensive and without merit, there is no reason to keep them. We cannot let promises of curing cancer or walking on Mars hide the problems we have on the ground today.",
+                            "feedback": "The budget will be a few billion lighter by the end of it. The ISS project was canned, and now Europe is looking at making something on a smaller scale with Russia and China. You can't help but feel queasy as you look at yourself in the mirror. Why have you forbidden people to dream?",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.02
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.0154
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.03
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": -0.3,
+                                    "weight": 2
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true
                 },
                 {
