@@ -4053,7 +4053,92 @@
                 {
                     "id": "whitewater_question",
                     "description": "The GOP and the press are desperate for something, anything, to get you on. Travelgate, Troopergate, Nannygate — you can’t even get a haircut without the press crying foul. But no matter the scandal du jour, it always comes back to Whitewater: a years-old land investment deal you and Hillary entered into back in Arkansas that lost money and stirred up questions that never seem to die, questions that feed the fever dreams of your loudest enemies. Something has to be done. But what?",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 25,
+                            "description": "I did nothing wrong, and I'm not afraid to let the American people know it. This whole thing was cooked up by right-wing smearmongers, and I won’t stand for it. We’ve cooperated fully, and when all is said and done, the truth will be clear.",
+                            "feedback": "The battle for narrative control against the media distracts from your achievements and erodes any goodwill in highlighting them. Many in your administration, including Vince Foster — the Rock of Gibraltar — are caught in the crossfire. The Wall Street Journal paints Foster as reckless with the law, a claim that shatters his reputation. He visits Fort Marcy Park and never returns. The last paragraph of his torn resignation letter reads: ''I was not meant for the job or the spotlight of public life in Washington. Here, ruining people is considered sport.'' ",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.048
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0575
+                                }
+                            ]
+                        },
+                        {
+                            "id": 26,
+                            "description": "You know what? Call up Hale, let’s settle this once and for all. Making a good parting deal with Hale oughta end this nonsense. That’ll really shock the crazies. It’s time to put these distractions to rest and focus on governing.",
+                            "feedback": "You thought you had the opposition cornered, but you were wrong. Suddenly, everyone wants a piece, demanding compensation for their silence. When the press grills you on whether you’ll keep paying off your troubles, you snap, ''This isn’t a charity.'' Mocking you, protesters in suits with fake grins flood the streets, ringing bells and calling for donations to the ''Clinton Charity Drive.'' The spectacle gnaws at you. Then, Vince Foster, disillusioned and weary, hands you his resignation, admitting he wasn’t built for Washington’s cutthroat politics.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0574
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.059
+                                }
+                            ]
+                        },
+                        {
+                            "id": 27,
+                            "description": "I don't have a clue what they want me to admit to, there was no wrongdoing here. But if that’s what it takes to get the heat off us, then fine. I’ll collaborate. Get Reno to appoint an independent counsel too.",
+                            "feedback": "Robert Fiske is initially assigned as special prosecutor, but the investigation grinds to a halt when the unthinkable happens: your childhood friend, Vince Foster, is found dead. A gunshot wound, a note, and a tidal wave of speculation. In his final words, he blames himself for not trying harder to stop what you’re going through. You barely have time to grieve before the GOP seizes the moment. Fiske is out, replaced by Kenneth Starr, a partisan shark circling the water. The body isn’t even cold yet.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0573
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.051
+                                }
+                            ]
+                        },
+                        {
+                            "id": 28,
+                            "description": "Look, they can speculate all they want, but there’s nothing to gain by entertaining the conversation. Besides, the nation agrees, there was nothing improper in those investments. They wouldn’t have elected me if they didn’t.",
+                            "feedback": "The media begins to shine scrutiny on a homesick and depressed Vince Foster. The campaign is vicious, questioning his character and integrity at every turn. It culminates in his suicide. As you gingerly wait to read his eulogy, it sets in like a pit in your stomach, not just grief, but the cold understanding that this is how Washington, and the swamp, works. Ruthless. And if they could, they’d do the same to you and Hillary — and worse.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0574
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.036
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true
                 },
                 {
