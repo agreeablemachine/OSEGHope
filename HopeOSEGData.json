@@ -2854,7 +2854,7 @@
                 },
                 {
                     "id": "question_3_deficit",
-                    "description": "Twelve years of the Gipper and Old Man Bush’s so-called ''fiscal responsibility'' have left America drowning in a new kind of red scare, not communism, but debt. Tax breaks for the wealthy drained the public coffers, and by fiscal year 1992, the nation faced a recession and a $290 billion deficit. Now, your economic team, Bentsen at Treasury, Panetta at OMB, Reich at Labor, and Rubin as economic advisor, clash over the path forward. Bentsen urges deficit reduction to restore investor confidence, while Reich argues for policies to tackle stagnant wages and drive broad consumer spending.",
+                    "description": "Twelve years of the Gipper and Old Man Bush’s so-called ''fiscal responsibility'' have left America drowning in debt. Tax breaks for the wealthy drained the public coffers, and by fiscal year 1992, the nation faced a recession and a $290 billion deficit. Now, your economic team, Bentsen at Treasury, Panetta at OMB, Reich at Labor, and Rubin as economic advisor, clash over the path forward. Bentsen urges deficit reduction to restore investor confidence, while Reich argues for policies to tackle stagnant wages and drive broad consumer spending.",
                     "answers": [
                         {
                             "id": 8,
@@ -4959,201 +4959,13 @@
                 {
                     "id": "question_6_dont_show_dont_tell",
                     "description": "Your plans to allow members of the homosexual community to serve openly in the military have faced serious resistance from military leadership, as expected, but now, conservatives and religious leaders from St. Louis to Baton Rouge are piling on. Military generals are even threatening to resign en masse if it's allowed. After a lot of discussion, General Colin Powell presents you with a compromise: recruiters won’t ask about an individual's sexual orientation, but the military will retain the right to discharge those who are openly gay. It sounds tempting to bite the bullet and move on, but backlash from gay rights activists is already brewing, your cabinet is divided, and you’re caught in the middle.",
-                    "answers": [
-                        {
-                            "id": 56,
-                            "description": "No dice. This is a fine bill, but I'm no fool. Timing matters, and when the moment’s right, we’ll push this through again.",
-                            "feedback": "You thought you could run from the issue like you usually do, but you underestimated just how much backlash you'd get from your gay supporters. The Blue Dogs are happy, sure, but the activists who backed you feel tossed aside. You weren’t trying to take a stand or duck the fight. You just didn’t want to hold the damn thing any longer than you had to. They'll never get it.",
-                            "answerEffects": [
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 77,
-                                    "issueId": 27,
-                                    "stateId": 181,
-                                    "amount": 0.001
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 80,
-                                    "issueId": 27,
-                                    "stateId": 181,
-                                    "amount": -0.02
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 78,
-                                    "issueId": 27,
-                                    "stateId": 181,
-                                    "amount": 0.02
-                                },
-                                {
-                                    "answerEffectType": "TctIssue",
-                                    "candidateId": 77,
-                                    "issueId": 28,
-                                    "stateId": 181,
-                                    "amount": -0.15
-                                }
-                            ]
-                        },
-                        {
-                            "id": 57,
-                            "description": "We’re not bending the knee. I made a promise to these folks and I’m not gonna break it now. These people have no voice, so I ought to use mine to defend them.",
-                            "feedback": "Your confidence in the American people to welcome such reform was lost to an insane extent. Generals began handing in their resignation papers, and Blue Dog Democrats threatened to walk—and publicly abandon your administration. In a rare moment of unity, Republicans and Democrats swiftly joined forces to overturn your order, just in time. A generation of gay Americans will remember the day you fell on your sword for them. But for what?",
-                            "answerEffects": [
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 77,
-                                    "issueId": 27,
-                                    "stateId": 181,
-                                    "amount": -0.0441
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 78,
-                                    "issueId": 27,
-                                    "stateId": 181,
-                                    "amount": 0.0224
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 80,
-                                    "issueId": 27,
-                                    "stateId": 181,
-                                    "amount": 0.0111
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 79,
-                                    "issueId": 27,
-                                    "stateId": 181,
-                                    "amount": -0.0561
-                                },
-                                {
-                                    "answerEffectType": "TctIssue",
-                                    "candidateId": 77,
-                                    "issueId": 28,
-                                    "stateId": 181,
-                                    "amount": 0.6,
-                                    "weight": 1.5
-                                }
-                            ]
-                        },
-                        {
-                            "id": 58,
-                            "description": "I don’t like this. It’s not fair to millions of Americans. But the truth is, this is probably the best we’re gonna get right now. I’ll take this compromise to Congress and see it through.",
-                            "feedback": "''Don’t Ask, Don’t Tell'' takes effect in late December of 1993, leaving just about everyone in the country dissatisfied, besides you, of course. When you saw the initial reactions pouring in from both sides—activists fuming, generals grumbling, you leaned back, sighed, and cracked a dry little laugh. Perfect. That’s how you know it’s a real compromise.",
-                            "answerEffects": [
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 77,
-                                    "issueId": 27,
-                                    "stateId": 181,
-                                    "amount": 0.0016
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 78,
-                                    "issueId": 27,
-                                    "stateId": 181,
-                                    "amount": -0.00075
-                                },
-                                {
-                                    "answerEffectType": "TctIssue",
-                                    "candidateId": 77,
-                                    "issueId": 28,
-                                    "stateId": 181,
-                                    "amount": -0.01
-                                }
-                            ]
-                        }
-                    ],
+                    "answers": [],
                     "keepInPlaceIfQuestionsShuffled": true
                 },
                 {
                     "id": "budget_3",
                     "description": "Another unfortunate inheritance from the Reagan years: a slew of scientific projects marked by bloated costs and questionable value. The Texas Super Collider and the International Space Station are now under bipartisan attack, seen by many as overambitious endeavors with little practical return, as a coalition of deficit hawks lines up to cut them to pieces. ",
-                    "answers": [
-                        {
-                            "id": 59,
-                            "description": "While I think that billion-dollar hole in Texas really has no place in the modern day other than as a prestige project, I feel like we can't abandon our place among the stars to the rest of the world. The ISS has to keep its place, plain and simple.",
-                            "feedback": "With a bare majority, ISS funding is saved from cancellation. Some will call your callous disregard for the less sexy parts of science the day physics died — but you had to pick your fights, and Kennedy’s promise to America was maintained.",
-                            "answerEffects": [
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 77,
-                                    "issueId": 27,
-                                    "stateId": 181,
-                                    "amount": 0.01
-                                },
-                                {
-                                    "answerEffectType": "TctIssue",
-                                    "candidateId": 77,
-                                    "issueId": 28,
-                                    "stateId": 181,
-                                    "amount": 0.3,
-                                    "weight": 2
-                                }
-                            ]
-                        },
-                        {
-                            "id": 60,
-                            "description": "It's true that those projects have been massively over budget for years now. Still, much like the car industry, our edge in technology may be lost if we aren’t willing to walk the walk, as expensive as it may be. We'll fight on to ensure that everything already spent doesn’t end up meaning nothing.",
-                            "feedback": "While the ISS would be saved with a simple vote, no one can agree on what to do with the Texas Super Collider. In the end, the barest of budgets was given to it to continue its operation at a glacial pace. It isn’t dead, but you’ll need a lot more energy to make it walk again.",
-                            "answerEffects": [
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 77,
-                                    "issueId": 27,
-                                    "stateId": 181,
-                                    "amount": -0.0121
-                                },
-                                {
-                                    "answerEffectType": "TctIssue",
-                                    "candidateId": 77,
-                                    "issueId": 28,
-                                    "stateId": 181,
-                                    "amount": 0.4,
-                                    "weight": 2
-                                }
-                            ]
-                        },
-                        {
-                            "id": 61,
-                            "description": "We had promises made to the people, and we have to answer to them clearly. If those projects are too expensive and without merit, there is no reason to keep them. We cannot let promises of curing cancer or walking on Mars hide the problems we have on the ground today.",
-                            "feedback": "The budget will be a few billion lighter by the end of it. The ISS project was canned, and now Europe is looking at making something on a smaller scale with Russia and China. You can't help but feel queasy as you look at yourself in the mirror. Why have you forbidden people to dream?",
-                            "answerEffects": [
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 77,
-                                    "issueId": 27,
-                                    "stateId": 181,
-                                    "amount": -0.02
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 78,
-                                    "issueId": 27,
-                                    "stateId": 181,
-                                    "amount": 0.0154
-                                },
-                                {
-                                    "answerEffectType": "Global",
-                                    "candidateId": 80,
-                                    "issueId": 27,
-                                    "stateId": 181,
-                                    "amount": 0.03
-                                },
-                                {
-                                    "answerEffectType": "TctIssue",
-                                    "candidateId": 77,
-                                    "issueId": 28,
-                                    "stateId": 181,
-                                    "amount": -0.3,
-                                    "weight": 2
-                                }
-                            ]
-                        }
-                    ],
+                    "answers": [],
                     "keepInPlaceIfQuestionsShuffled": true
                 },
                 {
@@ -7182,6 +6994,138 @@
         {
             "key": "Gipper",
             "value": "<img src=https://files.catbox.moe/bunzyj.png> California cowboy. Rode into Washington with a smile, a teleprompter, and rewrote the script of American politics."
+        },
+        {
+            "key": "Carville",
+            "value": "<img src=https://files.catbox.moe/ameceb.png> It's the economy, stupid"
+        },
+        {
+            "key": "Betsy",
+            "value": "<img src=https://files.catbox.moe/ya5dky.png> Current chief-of-staff, former hatchetman. She can play double duty still.\""
+        },
+        {
+            "key": "Perry",
+            "value": "<img src=https://files.catbox.moe/tgn9qg.png> Sec. of Defense"
+        },
+        {
+            "key": "Morris",
+            "value": "<img src=https://files.catbox.moe/ucwvqg.png> Your private whisperer"
+        },
+        {
+            "key": "Lake",
+            "value": "<img src=https://files.catbox.moe/j2od7e.png> Last of the liberal internationalists, still backing diplomacy in a town run by Reaganites and neocons."
+        },
+        {
+            "key": "Michael Huffington",
+            "value": "<img src=https://files.catbox.moe/py98xl.png> Swinging both ways in California"
+        },
+        {
+            "key": "Chuck Haytaian",
+            "value": "<img src=https://files.catbox.moe/ah82of.png> Senator from New Jersey, walking harassment lawsuit"
+        },
+        {
+            "key": "Oliver North",
+            "value": "<img src=https://files.catbox.moe/y8b2y5.png> Saving America from itself"
+        },
+        {
+            "key": "Hatch",
+            "value": ""
+        },
+        {
+            "key": "Orrin Hatch",
+            "value": "<img src=https://files.catbox.moe/3qmd92.png> Former chair of the Judiciary. A conservative, but not a bomb-thrower. Carries weight."
+        },
+        {
+            "key": "Al D'Amato",
+            "value": "<img src=https://files.catbox.moe/owbw2h.png> Senator Pothole"
+        },
+        {
+            "key": "Gingrich",
+            "value": "<img src=https://files.catbox.moe/6r0iky.png> Speaker of the House, Satan in the flesh"
+        },
+        {
+            "key": "Newt",
+            "value": "<img src=https://files.catbox.moe/6r0iky.png> Speaker of the House, Satan in the flesh"
+        },
+        {
+            "key": "Limbaugh",
+            "value": "<img src=https://files.catbox.moe/1mm05p.png> The modern Charles Coughlin, half as eloquent, twice as cruel. When he’s not calling your teenage daughter a dog, he's rallying for your destruction."
+        },
+        {
+            "key": "Joe Biden",
+            "value": "<img src=https://files.catbox.moe/cjc70m.png> Veteran Senator of Delaware, big on law and order"
+        },
+        {
+            "key": "Carter",
+            "value": "<img src=https://files.catbox.moe/4qxyy8.png> Former President, current pain in the ass"
+        },
+        {
+            "key": "debt",
+            "value": "<img src=https://files.catbox.moe/w7leau.png> The new red scare."
+        },
+        {
+            "key": "Evan Bayh",
+            "value": "<img src=https://files.catbox.moe/gcj6g1.png> Your brand of politics adapted for the Midwestern market"
+        },
+        {
+            "key": "Bayh",
+            "value": "<img src=https://files.catbox.moe/gcj6g1.png> Your brand of politics adapted for the Midwestern market"
+        },
+        {
+            "key": "Howard Dean",
+            "value": "<img src=https://files.catbox.moe/gb8uke.png> The best thing to come out of Vermont since Ben and Jerry's"
+        },
+        {
+            "key": "Mary Landrieu",
+            "value": "<img src=https://files.catbox.moe/5ydy9v.png> A good Christian mother from Louisiana"
+        },
+        {
+            "key": "Kerrey",
+            "value": "<img src=https://files.catbox.moe/0cidqk.png> Decorated war hero, straight-talker, and prairie pragmatist"
+        },
+        {
+            "key": "Claiborne Pell",
+            "value": "<img src=https://files.catbox.moe/37io3l.png> The greatest, least famous war hero"
+        },
+        {
+            "key": "Starr",
+            "value": "<img src=https://files.catbox.moe/2k59l3.png> Whitewater prosecutor, always needs to “figure something out”"
+        },
+        {
+            "key": "Fiske",
+            "value": "<img src=https://files.catbox.moe/icb8w8.png> Dignified prosecutor, pushed out in favor of Ken Starr"
+        },
+        {
+            "key": "Ginsburg",
+            "value": "<img src=https://files.catbox.moe/ukarfw.png> United States Court of Appeals for the District of Columbia Circuit Judge"
+        },
+        {
+            "key": "Babbitt",
+            "value": "<img src=https://files.catbox.moe/hc0efu.png> Interior secretary, 1988 candidate, judicial material?"
+        },
+        {
+            "key": "Tribe",
+            "value": "<img src=https://files.catbox.moe/r0fj1c.png> Harvard law professor, liberal lion, and constitutional whisperer."
+        },
+        {
+            "key": "Hubbell",
+            "value": "<img src=https://files.catbox.moe/zfeom3.png> Former Mayor of Little Rock. Loyal friend. Quiet fixer."
+        },
+        {
+            "key": "Breyer",
+            "value": "<img src=https://files.catbox.moe/j059ob.png> First Circuit judge. Protégé of Ted Kennedy, once his chief counsel on Judiciary. The Senate knows him."
+        },
+        {
+            "key": "Janie Shores",
+            "value": "<img src=https://files.catbox.moe/xzb9eh.png> Backup plan. Alabama’s first female Supreme Court justice, close to Judiciary titan Senator Heflin."
+        },
+        {
+            "key": "Foster",
+            "value": "<img src=https://files.catbox.moe/fagr3l.png> The Rock of Gibraltar"
+        },
+        {
+            "key": "Byron ''Whizzer'' White",
+            "value": "<img src=https://files.catbox.moe/jo8wla.png> Appointed by JFK, but never voted like it. Dissented on Roe, backed the death penalty, never once smiled."
         }
     ],
     "furtherReading": "<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\\\"https://archive.org/details/presidentialfoll00hall\\\" target=”_blank”>Ralph Z. Hallow & Bradley S. O'Leary - Presidential Follies : Those Who Would be President and Those Who Should Think Again!</a></br><a href=\\\"https://www.amazon.com/Gatekeepers-White-Chiefs-Define-Presidency/dp/0804138249\\\" target=”_blank”>Chris Whipple - The Gatekeepers: How the White House Chiefs of Staff Define Every Presidency</a></br><a href=\\\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\\\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>2000/Second Term Sources</h4><a href=\\\"https://p2000.us/cands.html\\\" target=”_blank”>Democracy in Action 2000</a></br><a href=\\\"https://www.amazon.com/Vast-Conspiracy-Scandal-Brought-President-ebook/dp/B009UAO1KQ\\\" target=”_blank”>Jeffery Toobin - A Vast Conspiracy: The Real Story of the Sex Scandal That Nearly Brought Down a President</a></br><a href=\\\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\\\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\\\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\\\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\\\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\\\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\\\"http://www.vanityfair.com/news/2004/10/florida-election-2000\\\" target=”_blank”>The Path to Florida</a></br><a href=\\\"http://www.historyplace.com/speeches/gore-concedes.htm\\\" target=”_blank”>Al Gore Concedes the 2000 Election</a>\n",
