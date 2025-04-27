@@ -51,6 +51,14 @@ function onAnswerPicked(engine, answerPicked) {
     engine.setQuestionEnabledById("budget_1_normal", true);
     }
 
+    if (LEGWin >= 1) {
+        engine.setQuestionEnabledById("question_7_crime_alt", true);
+        engine.setQuestionEnabledById("question_7_crime", false);
+    } else {
+        engine.setQuestionEnabledById("question_7_crime", true);
+        engine.setQuestionEnabledById("question_7_crime_alt", false);
+    }
+
 
 // Variable Wall
 
@@ -123,6 +131,34 @@ function onAnswerPicked(engine, answerPicked) {
     ReichPoints += 2;
     Ideology -= 1;
     }
+    if (ans == 42){
+    PublicSupport -= 1;
+    Ideology += 1;
+    }
+    if (ans == 43){
+    PublicSupport -= 2;
+    ReichPoints += 2;
+    LEGWin += 1;
+    }
+    if (ans == 44){
+    ReichPoints += 1;
+    }
+    if (ans == 45){
+    FPWin += 1;
+    }
+    if (ans == 59){
+    PublicSupport += 1;
+    ReichPoints += 1;
+    }
+    if (ans == 60){
+    Ideology += 1;
+    }
+    if (ans == 61){
+    PublicSupport += 1;
+    Ideology -= 1;
+    ReichPoints += 2;
+    sundog += 1;
+    }
     //Supreme Court CYOA
     if (ans == 20){
     Ideology += 2;
@@ -161,6 +197,36 @@ function onAnswerPicked(engine, answerPicked) {
     PublicSupport -= 1;
    FPWin -= 1;
    }
+   //Crime CYOA
+   if (ans == 50 || ans == 53){
+    Ideology -= 2;
+    LEGWin += 1;
+    PublicSupport += 1;
+    }
+    if (ans == 54){
+    Ideology += 2;
+    Legacy += 1;
+    PublicSupport += 1;
+    LEGWin += 1;
+    Wins += 1;
+    }
+   if (ans == 51){
+    Ideology += 2;
+    }
+   if (ans == 52 ||ans == 55) {
+    sundog += 1;
+    PublicSupport -= 1;
+    }
+    //DADT CYOA
+    if (ans == 57){
+    PublicSupport -= 1;
+    Ideology += 1;
+    }
+    if (ans == 58){
+    sundog += 1;
+    PublicSupport -= 1;
+    Ideology -= 1;
+    }
 }
 
 function onScenarioStarted(engine) {
