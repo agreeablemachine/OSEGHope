@@ -4278,7 +4278,152 @@
                 {
                     "id": "budget_2",
                     "description": "As soon as the Berlin Wall fell, there was a beast that grew to a truly bloated size that everyone wanted a piece of: the military. Only the most delusional hawks want to keep it as it is, but they have the votes to stop us from fully using the peace dividend the way we should. It's just a question of how much, and how.",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 42,
+                            "description": "Let's keep it simple. Everyone already has a thousand different proposals for cuts and ideas for sliding those funds around. We'll just be a guiding hand to their ambition. No need to stretch our strength to make it happen, we have more pressing concerns.",
+                            "feedback": "As more and more of the defense budget is cut, it becomes clear that among the remaining U.S. forces, they'll have to work harder with less support. A truly demoralizing prospect, with tension growing high as they feel abandoned. Still, the deficit is going down, they'll find another job eventually.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0175
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.01
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.02
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": 0.3,
+                                    "weight": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 43,
+                            "description": "Let's throw deep. We are spending more than twice the NATO defense target, there’s no need to keep it that high. Let’s aim for 2.5 to 3% of GDP. That’s $100 billion freed up each year! With that, the deficit is certain to be curbed, and with money to spare!",
+                            "feedback": "Among Congress, the mood was already set for cuts, and you delivered. There is, however, a growing part of the population that resents seeing their family member, someone ready to die for their country, being laid off like this. Still, who’s going to say you’re not simply balancing the books in a post–Cold War world?",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.025
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.01
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.035
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": 0.5,
+                                    "weight": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 44,
+                            "description": "Colin Powell made a fair point — there’s still a whole lot of waste in the system. Too many bases with no real mission. We ought to take that seriously. And we should call on him, and folks like him, to lead the charge on modernizing our force. Nobody has to be left behind. We just have to keep up with the times.",
+                            "feedback": "If it were anyone else saying it, it would have alienated him forever among the military. But as Colin Powell speaks of how soldiers shouldn’t have to stand staring at the ceiling in disparate bases, they are listening. Ironically, without the Reagan bloat, the army may work better, and with tens of billions less in its budget.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.0124
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0124
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.02
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": 0.3,
+                                    "weight": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 45,
+                            "description": "What the tragedy at the World Trade Center showed us is that our old model of war is outdated. Today, those who want to tear down the liberal order turn to terror and tactics nukes and tanks can’t stop. We don’t need to slash everything, we need to reshape it into something that might keep a tragedy like this from happening again.",
+                            "feedback": "Clinton the warhawk was something nobody would expect. On your left and your right, people are still confused. The median voter seems to agree with your position as you speak of fighting terrorism, with warnings about a surveillance state remaining a minority view. Still, it means less money to be used elsewhere.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.01
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.003
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.02
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": -0.3,
+                                    "weight": 2
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true
                 },
                 {
