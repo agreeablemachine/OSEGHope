@@ -144,6 +144,23 @@ function onAnswerPicked(engine, answerPicked) {
     PublicSupport -= 1;
     sundog += 1;
     }
+    //Somalia CYOA
+    if (ans == 46){
+    PublicSupport -= 1;
+   FPWin -= 1;
+   sundog -= 1;
+   }
+      if (ans == 47){
+    PublicSupport -= 1;
+   FPWin -= 1;
+   }
+      if (ans == 48){
+   FPWin += 1;
+   }
+      if (ans == 49){
+    PublicSupport -= 1;
+   FPWin -= 1;
+   }
 }
 
 function onScenarioStarted(engine) {
