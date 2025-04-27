@@ -4761,7 +4761,198 @@
                 {
                     "id": "question_7_crime_alt",
                     "description": "At this point, it feels like every day brings another mess you’ve inherited from the Bush administration. No wonder you kicked his ass so badly. Crime skyrocketed under Reagan and only got worse under 41, hitting an all-time high merely three years ago. You made it clear to Reno from day one that something had to be done, and now, after months of back-and-forth, she’s pushing for reform. You’re finally weighing your options. What’s your move?",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 53,
+                            "description": "Now look, getting crime under control is absolutely critical, and we’ve got to crack down, no two ways about it. I want to get on the phone with Joe Biden. That fella, He’s tough as nails on this issue, and if it came down to it, he’d make himself a martyr if that’s what it took.",
+                            "feedback": "Biden works his magic, and the bill sails through nearly unanimously on November 19th. Millions more cops prowl the streets. Millions more are incarcerated. The streets are flooded with newly hired officers, federal grants fuel the construction of more prisons, and sentencing laws tighten like a noose. Crime rates start to drop, but at what cost?",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0069
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0125
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": -0.125
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 231,
+                                    "amount": 0.01
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 190,
+                                    "amount": 0.0067
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 183,
+                                    "amount": 0.01
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 224,
+                                    "amount": 0.0067
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 216,
+                                    "amount": 0.0067
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 226,
+                                    "amount": 0.0067
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.0067
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 204,
+                                    "amount": 0.0067
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 220,
+                                    "amount": 0.0067
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 213,
+                                    "amount": 0.0067
+                                }
+                            ]
+                        },
+                        {
+                            "id": 54,
+                            "description": "Some common-sense regulations are the right way to go here. We've already taken the first step with background checks and waiting periods, it's time to go further. What works for a gun owner in rural Alaska isn’t the same as what’s needed in midtown Manhattan. I’ll propose an assault weapons ban for major population centers, paired with stricter licensing standards. This is what works.",
+                            "feedback": "NRA President Robert Corbin vows this will pass ''over his cold dead hands.'' The GOP is livid, right-wing media paints you as a tyrant, and gun rights activists flood statehouses in protest. You're being called the Anti-Christ for making gun ownership even marginally harder. But the numbers don’t lie, crime is dropping, and your approval ratings hold steady.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.02687
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.02442
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.01141
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": 0.5,
+                                    "weight": 3
+                                }
+                            ]
+                        },
+                        {
+                            "id": 55,
+                            "description": "Look, the truth is, we just don’t have the votes for real reform right now. And I’m not about to stoop to Reagan’s level and start fearmongering just to get it through. We’ll shelve this for now and come back after the midterms, when, God willing, our majority’s a little bigger.",
+                            "feedback": "You bite your tongue and commit to reform later. Crime rates keep climbing, and the critics grow louder, talking heads, op-eds, constituents calling you deaf to the cries of the American people. They don’t understand. They never have. They never will. You slam the newspaper down, rub your temples, and stare at the wall.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.03
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 193,
+                                    "amount": 0.00312498627654321
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 215,
+                                    "amount": 0.00312498627654321
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 218,
+                                    "amount": 0.00612498627654321
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 203,
+                                    "amount": 0.012498627654321
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 230,
+                                    "amount": 0.00612498627654321
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 202,
+                                    "amount": 0.00612498627654321
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": false
                 },
