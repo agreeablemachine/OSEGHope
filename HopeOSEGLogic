@@ -33,6 +33,16 @@ var sundog = 0
 
 function onAnswerPicked(engine, answerPicked) {
     const ans = answerPicked.id;
+    if (engine.getAnswers().includes(1)) {
+    engine.setQuestionEnabledById("insert_question_hillary", true);
+    } else if (engine.getAnswers().includes(2)) {
+    engine.setQuestionEnabledById("insert_ted_advice_healthcare", true);
+    } else if (engine.getAnswers().includes(3)) {
+    engine.setQuestionEnabledById("insert_health_insurance", true);
+    } else if (engine.getAnswers().includes(4)) {
+    engine.setQuestionEnabledById("insert_healthcare_disaster", true);
+    }
+
     if (engine.getAnswers().includes(8)) {
     engine.setQuestionEnabledById("budget_1_bentsen", true);
     } else if (engine.getAnswers().includes(9)) {
@@ -44,12 +54,15 @@ function onAnswerPicked(engine, answerPicked) {
 
 // Variable Wall
 
-    //Healthcare Pick
+    //Healthcare CYOA
     if (ans == 2) {
     Ideology += 1;
     PublicSupport += 1;
     }
     if (ans == 4) {
+    Ideology -= 1;
+    }
+    if (ans == 29 || ans == 31) {
     Ideology -= 1;
     }
     //WTC Bombing CYOA
