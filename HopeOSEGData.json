@@ -4429,7 +4429,150 @@
                 {
                     "id": "question_8_somalia",
                     "description": "Following months of tense operations in Mogadishu, the Somali people have turned against the U.S. and UNOSOM II forces after a botched raid on a villa owned by warlord Mohamed Aidid, which resulted in the deaths of many innocent women, children, and community leaders. The incident has rightly sparked outrage from human rights organizations, who have labeled it a massacre. It is clear to you that you must quickly change tactics to salvage what little support remains among the Somali population; otherwise, the situation could escalate unpredictably.",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 46,
+                            "description": "This is a terrible situation, but the fact remains, General Aidid has to go. That’s why I’m authorizing Operation Gothic Serpent to track him down and put an end to his reign of terror. Only after that, will the people have a chance to come back to us with open arms.",
+                            "feedback": "After the Battle of Mogadishu, Somali civilians drag the bodies of dead American soldiers through the streets. Though technically a victory, you know the war is lost. In early March of '94, you authorize a full withdrawal. The UN, seeing the writing on the wall, soon follows suit.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.0025
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.02
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.02
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": -0.4,
+                                    "weight": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 47,
+                            "description": "This has become the most costly operation the UN has ever undertaken, and now this. I think it’s time we face the facts, we need to cut our losses and pull out of Somalia. I... don’t see a path forward here that makes sense.",
+                            "feedback": "The UN agrees. Somalia plunges into chaos almost overnight, giving Aidid the perfect opening to seize control — quickly and ruthlessly, with a swiftness not seen since Saigon. The world groans, headlines sting, but behind closed doors, you light a cigar and mutter something about cutting losses.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.01
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.02
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.02
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 48,
+                            "description": "We’ve got to get back to basics after all this, you know? Self-defense, nation-building, real humanitarian aid. I’ll push UNOSOM to hold off on further military operations for now and shift our efforts toward food, clean water, medicine, anything that can bring these folks a little stability.",
+                            "feedback": "At first, UN humanitarian workers face harassment, and the streets remain tense. But slowly—very slowly, the people begin to trust the mission again. When Aidid’s forces target aid convoys, and civilians are killed in the crossfire, his local support begins to fracture. It’s not a clean victory, but it’s something.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.005
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.025
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.0361
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": 0.4
+                                }
+                            ]
+                        },
+                        {
+                            "id": 49,
+                            "description": "Are we really gonna let him slip through our fingers again? No, I'm not allowing it. I know he’ll try to flee the country, but we can’t let that happen. I’ll announce expanded American involvement to help maintain the peace in Somalia, and if he does manage to escape, we’ll extend the search into neighboring countries.",
+                            "feedback": "It’s bold, but that’s always been your way. Unfortunately, Aidid slips through every net, from Ethiopia to Kenya, and beyond. In the process, the mission drifts from peacekeeping toward occupation. After Mogadishu, when American bodies are dragged through the streets to chants of ''Death to America,'' your efforts backfire, galvanizing support for the very man you meant to bring down.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.03
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.02
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.02
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": -0.7,
+                                    "weight": 2
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true
                 },
                 {
@@ -6486,5 +6629,6 @@
             "value": "<img src=https://files.catbox.moe/bunzyj.png> California cowboy. Rode into Washington with a smile, a teleprompter, and rewrote the script of American politics."
         }
     ],
-    "furtherReading": "<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\\\"https://archive.org/details/presidentialfoll00hall\\\" target=”_blank”>Ralph Z. Hallow & Bradley S. O'Leary - Presidential Follies : Those Who Would be President and Those Who Should Think Again!</a></br><a href=\\\"https://www.amazon.com/Gatekeepers-White-Chiefs-Define-Presidency/dp/0804138249\\\" target=”_blank”>Chris Whipple - The Gatekeepers: How the White House Chiefs of Staff Define Every Presidency</a></br><a href=\\\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\\\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>2000/Second Term Sources</h4><a href=\\\"https://p2000.us/cands.html\\\" target=”_blank”>Democracy in Action 2000</a></br><a href=\\\"https://www.amazon.com/Vast-Conspiracy-Scandal-Brought-President-ebook/dp/B009UAO1KQ\\\" target=”_blank”>Jeffery Toobin - A Vast Conspiracy: The Real Story of the Sex Scandal That Nearly Brought Down a President</a></br><a href=\\\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\\\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\\\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\\\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\\\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\\\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\\\"http://www.vanityfair.com/news/2004/10/florida-election-2000\\\" target=”_blank”>The Path to Florida</a></br><a href=\\\"http://www.historyplace.com/speeches/gore-concedes.htm\\\" target=”_blank”>Al Gore Concedes the 2000 Election</a>\n"
+    "furtherReading": "<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\\\"https://archive.org/details/presidentialfoll00hall\\\" target=”_blank”>Ralph Z. Hallow & Bradley S. O'Leary - Presidential Follies : Those Who Would be President and Those Who Should Think Again!</a></br><a href=\\\"https://www.amazon.com/Gatekeepers-White-Chiefs-Define-Presidency/dp/0804138249\\\" target=”_blank”>Chris Whipple - The Gatekeepers: How the White House Chiefs of Staff Define Every Presidency</a></br><a href=\\\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\\\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>2000/Second Term Sources</h4><a href=\\\"https://p2000.us/cands.html\\\" target=”_blank”>Democracy in Action 2000</a></br><a href=\\\"https://www.amazon.com/Vast-Conspiracy-Scandal-Brought-President-ebook/dp/B009UAO1KQ\\\" target=”_blank”>Jeffery Toobin - A Vast Conspiracy: The Real Story of the Sex Scandal That Nearly Brought Down a President</a></br><a href=\\\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\\\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\\\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\\\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\\\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\\\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\\\"http://www.vanityfair.com/news/2004/10/florida-election-2000\\\" target=”_blank”>The Path to Florida</a></br><a href=\\\"http://www.historyplace.com/speeches/gore-concedes.htm\\\" target=”_blank”>Al Gore Concedes the 2000 Election</a>\n",
+    "questionsPerVisit": 2
 }
