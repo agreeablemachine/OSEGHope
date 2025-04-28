@@ -243,6 +243,43 @@ function onAnswerPicked(engine, answerPicked) {
     PublicSupport -= 1;
     Ideology -= 1;
     }
+    //NAFTA CYOA
+    if (ans == 62){
+     PublicSupport += 1;
+     LEGWin += 1; 
+     FPWin += 1;
+     sundog += 6;
+     }
+    if (ans == 63){
+     PublicSupport += 1;
+     LEGWin += 1;
+     Legacy += 1;
+     FPWin -= 1;
+     Ideology += 1;
+     sundog -= 12;
+     }
+    //START III CYOA
+    if (ans == 64){
+    PublicSupport += 1;
+    sundog += 2;
+   FPWin += 1;
+   }
+    if (ans == 65){
+    PublicSupport += 1;
+   FPWin += 1;
+   }
+    if (ans == 66){
+    PublicSupport += 1;
+   FPWin += 1;
+   }
+    if (ans == 67){
+    PublicSupport -= 1;
+   FPWin -= 1;
+   }
+    if (ans == 68){
+    PublicSupport -= 1;
+   FPWin -= 1;
+   }
 }
 
 function onScenarioStarted(engine) {
