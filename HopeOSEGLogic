@@ -235,6 +235,21 @@ function onAnswerPicked(engine, answerPicked) {
     PublicSupport -= 1;
     Ideology -= 1;
     }
+    //NAFTA CYOA
+   if (ans == 62){
+    PublicSupport += 1;
+    LEGWin += 1; 
+    FPWin += 1;
+    sundog += 6;
+    }
+   if (ans == 63){
+    PublicSupport += 1;
+    LEGWin += 1;
+    Legacy += 1;
+    FPWin -= 1;
+    Ideology += 1;
+    sundog -= 12;
+    }
 }
 
 function onScenarioStarted(engine) {
