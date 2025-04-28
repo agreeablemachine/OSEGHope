@@ -6903,63 +6903,452 @@
                 {
                     "id": "budget_normal_fail",
                     "description": "That budget was a slog to get through but here we are now! It's finally going to be voted on. You have more than the majority of congressmen needed to pass it but the last few month have made it very clear that this doesn't mean much as those cross party coalition pushing for special interest have made themselves clear. Now, there's just one way to see.",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 69,
+                            "description": "It's the economy, stupid!",
+                            "feedback": "Opposition from the GOP, and even some Democrats, makes the rounds, and most already predict a dark future for this bill. The media deems it dead before it even hits the floor. Mitchell, the Democrats’ leader in the Senate, tells you he can get 49 votes on the board, but the life of such a plan relies solely on one man: Senator Bob Kerrey of Nebraska. You rally as hard as you can to get his support, and by nothing short of the grace of God, he gives you the one vote needed to push the budget through — with Al’s vote, of course.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.02
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.02
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.04
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": 0.075,
+                                    "weight": 2
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": false
                 },
                 {
                     "id": "budget_normal_win",
                     "description": "That budget was a slog to get through but here we are now! It's finally going to be voted on. You have more than the majority of congressmen needed to pass it but the last few month have made it very clear that this doesn't mean much as those cross party coalition pushing for special interest have made themselves clear. Now, there's justone way to see.",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 70,
+                            "description": "It's the economy, stupid!",
+                            "feedback": "You don’t know why you were so stressed about it, in the end, with over 60 votes in the Senate, it passes without much fuss. Some Republicans will always hate you, but here, you’ve shown yourself to be a true bipartisan hero, even if few will admit it out loud..",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.02843
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.01
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.046
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": -0.25,
+                                    "weight": 2
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": false
                 },
                 {
                     "id": "budget_bentsen_deficit",
                     "description": "That budget was a slog to get through but here we are now! It's finally going to be voted on. You have more than the majority of congressmen needed to pass it but the last few month have made it very clear that this doesn't mean much as those cross party coalition pushing for special interest have made themselves clear. Now, there's just one way to see.",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 71,
+                            "description": "It's the economy, stupid!",
+                            "feedback": "As the bill clears Congress, Bentsen takes out the champagne, saying that while future generations might have grievances with their elders, leaving them an inescapable debt wouldn’t be our doing. The economy did show some worrying signs, but in the end, it was barely a blip. Maybe all was going to be okay after all?",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.02
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0123
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.051
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": -0.2,
+                                    "weight": 2
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": false
                 },
                 {
                     "id": "budget_bentsen_balance",
                     "description": "That budget was a slog to get through but here we are now! It's finally going to be voted on. You have more than the majority of congressmen needed to pass it but the last few month have made it very clear that this doesn't mean much as those cross party coalition pushing for special interest have made themselves clear. Now, there's just one way to see.",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 72,
+                            "description": "It's the economy, stupid!",
+                            "feedback": "As you sign it, Gore calls with some long-winded speech about how this is setting an example for future generations. Another world was possible, and it could come now, today. You’re not sure where he’s going with it, but he seems absolutely ecstatic. Still, another win on the scoreboard.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.0141
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0199
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0151
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 79,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0075
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": -0.2,
+                                    "weight": 2
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": false
                 },
                 {
                     "id": "budget_bentsen_cuts",
                     "description": "That budget was a slog to get through but here we are now! It's finally going to be voted on. You have more than the majority of congressmen needed to pass it but the last few month have made it very clear that this doesn't mean much as those cross party coalition pushing for special interest have made themselves clear. Now, there's just one way to see.",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 73,
+                            "description": "It's the economy, stupid!",
+                            "feedback": "At the moment you signed it, it felt like the best budget ever made — and just a few weeks later, it felt quite the opposite. Your party called it Smoot-Hawley-like, while Republicans branded your actions as 'Carter-like.' The economy suffered a short, three-month contraction before getting back on track. Thank God the economy is resilient, because you came close to actually causing a recession.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0552124
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.0312124
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.0412124
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": -0.2,
+                                    "weight": 2
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 190,
+                                    "amount": 0.01
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 203,
+                                    "amount": 0.01
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 195,
+                                    "amount": 0.005
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 218,
+                                    "amount": 0.008
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 215,
+                                    "amount": 0.005
+                                },
+                                {
+                                    "answerEffectType": "State",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 184,
+                                    "amount": 0.01
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": false
                 },
                 {
                     "id": "budget_reich_ambition_win",
                     "description": "That budget was a slog to get through but here we are now! It's finally going to be voted on. You have more than the majority of congressmen needed to pass it but the last few month have made it very clear that this doesn't mean much as those cross party coalition pushing for special interest have made themselves clear. Now, there's just one way to see.",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 74,
+                            "description": "It's the economy, stupid!",
+                            "feedback": "No one believed in it. In fact, the Republicans called it dead on arrival — and yet, when the count was made, 51 to 49, it passed without Gore even needing to vote. The Republican Party is already predicting doom, and gloom for the economy and claiming a billion welfare queens will appear, but the coming growth will soon make them sound rather ridiculous.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.03
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.02
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.04
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 80,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": 0.4,
+                                    "weight": 2
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": false
                 },
                 {
                     "id": "budget_reich_ambition_fail",
                     "description": "That budget was a slog to get through but here we are now! It's finally going to be voted on. You have more than the majority of congressmen needed to pass it but the last few month have made it very clear that this doesn't mean much as those cross party coalition pushing for special interest have made themselves clear. Now, there's just one way to see.",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 75,
+                            "description": "It's the economy, stupid!",
+                            "feedback": "And so the budget dies, with rapturous applause. You’re quite amazed by how little people actually liked it, even in your own party. Maybe people will see it as a brave choice in the future, but right now, it’s a bitterly painful experience. You’ll just have to pick yourself back up and try to get better.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.045
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.0275
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.085
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": 0.4,
+                                    "weight": 2
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": false
                 },
                 {
                     "id": "budget_reich_unambition_win",
                     "description": "That budget was a slog to get through but here we are now! It's finally going to be voted on. You have more than the majority of congressmen needed to pass it but the last few month have made it very clear that this doesn't mean much as those cross party coalition pushing for special interest have made themselves clear. Now, there's just one way to see.",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 76,
+                            "description": "It's the economy, stupid!",
+                            "feedback": "It passed with a few votes to spare. Thankfully, the Democratic right rebellion was more overblown than expected once you began being less adversarial. The left will still call the budget a band-aid on the current crisis, but their words don't mean much — it's the most progressive budget since LBJ.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.02
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.0113
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.024
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 79,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.044
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": 0.4,
+                                    "weight": 2
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": false
                 },
                 {
                     "id": "budget_reich_unambition_fail",
                     "description": "That budget was a slog to get through but here we are now! It's finally going to be voted on. You have more than the majority of congressmen needed to pass it but the last few month have made it very clear that this doesn't mean much as those cross party coalition pushing for special interest have made themselves clear. Now, there's just one way to see.",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 77,
+                            "description": "It's the economy, stupid!",
+                            "feedback": "As the tally was counted, you needed but one or two votes. It felt agonizing to wait, but in the end, it just didn't come to pass. You don't understand what went wrong, you'd given up on so much, and they still refused to pass it? There is no consolation to be had, just the painful fact that you were, sadly, not enough.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.01
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.031
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 80,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.03
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 28,
+                                    "stateId": 181,
+                                    "amount": 0.2,
+                                    "weight": 2
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": false
                 },
