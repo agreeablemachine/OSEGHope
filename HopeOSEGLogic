@@ -59,6 +59,14 @@ function onAnswerPicked(engine, answerPicked) {
         engine.setQuestionEnabledById("question_7_crime_alt", false);
     }
 
+    if (ReichPoints >= 3) {
+        engine.setQuestionEnabledById("question_9_altnafta", true);
+        engine.setQuestionEnabledById("question_9_nafta", false);
+    } else {
+        engine.setQuestionEnabledById("question_9_nafta", true);
+        engine.setQuestionEnabledById("question_9_altnafta", false);
+    }
+
 
 // Variable Wall
 
