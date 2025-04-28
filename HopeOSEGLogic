@@ -33,6 +33,7 @@ var sundog = 0
 
 function onAnswerPicked(engine, answerPicked) {
     const ans = answerPicked.id;
+    // Question inserters
     if (engine.getAnswers().includes(1)) {
     engine.setQuestionEnabledById("insert_question_hillary", true);
     } else if (engine.getAnswers().includes(2)) {
@@ -65,6 +66,13 @@ function onAnswerPicked(engine, answerPicked) {
     } else {
         engine.setQuestionEnabledById("question_9_nafta", true);
         engine.setQuestionEnabledById("question_9_altnafta", false);
+    }
+    if ((engine.getAnswers().includes(5) || engine.getAnswers().includes(6)) && engine.getAnswers().includes(48)) {
+    engine.setQuestionEnabledById("insert_yeltsin_friendly", true);
+        engine.setQuestionEnabledById("insert_yeltsin_unfriendly", false);
+    } else {
+        engine.setQuestionEnabledById("insert_yeltsin_unfriendly", true);
+        engine.setQuestionEnabledById("insert_yeltsin_friendly", false);
     }
 
 
@@ -234,21 +242,6 @@ function onAnswerPicked(engine, answerPicked) {
     sundog += 1;
     PublicSupport -= 1;
     Ideology -= 1;
-    }
-    //NAFTA CYOA
-   if (ans == 62){
-    PublicSupport += 1;
-    LEGWin += 1; 
-    FPWin += 1;
-    sundog += 6;
-    }
-   if (ans == 63){
-    PublicSupport += 1;
-    LEGWin += 1;
-    Legacy += 1;
-    FPWin -= 1;
-    Ideology += 1;
-    sundog -= 12;
     }
 }
 
