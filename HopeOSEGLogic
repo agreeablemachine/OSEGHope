@@ -34,18 +34,6 @@ var sundog = 0
 function onAnswerPicked(engine, answerPicked) {
     const ans = answerPicked.id;
     // Question inserters
-
-  if (engine.getQuestions+1 == 3) {
-    if (engine.getAnswers().includes(8)) {
-    engine.setQuestionEnabledById("budget_1_bentsen", true);
-    } else if (engine.getAnswers().includes(9)) {
-    engine.setQuestionEnabledById("budget_1_reich", true);
-    } else if (engine.getAnswers().includes(10)) {
-    engine.setQuestionEnabledById("budget_1_normal", true);
-    }
-  }
-
-    if (engine.getQuestions+1 == 6) {
     if (engine.getAnswers().includes(1)) {
     engine.setQuestionEnabledById("insert_question_hillary", true);
     } else if (engine.getAnswers().includes(2)) {
@@ -55,8 +43,15 @@ function onAnswerPicked(engine, answerPicked) {
     } else if (engine.getAnswers().includes(4)) {
     engine.setQuestionEnabledById("insert_healthcare_disaster", true);
     }
+
+    if (engine.getAnswers().includes(8)) {
+    engine.setQuestionEnabledById("budget_1_bentsen", true);
+    } else if (engine.getAnswers().includes(9)) {
+    engine.setQuestionEnabledById("budget_1_reich", true);
+    } else if (engine.getAnswers().includes(10)) {
+    engine.setQuestionEnabledById("budget_1_normal", true);
     }
-    if (engine.getQuestions+1 == 9) {
+
     if (LEGWin >= 1) {
         engine.setQuestionEnabledById("question_7_crime_alt", true);
         engine.setQuestionEnabledById("question_7_crime", false);
@@ -64,8 +59,7 @@ function onAnswerPicked(engine, answerPicked) {
         engine.setQuestionEnabledById("question_7_crime", true);
         engine.setQuestionEnabledById("question_7_crime_alt", false);
     }
-    }
-    if (engine.getQuestions+1 == 12) {
+
     if (ReichPoints >= 3) {
         engine.setQuestionEnabledById("question_9_altnafta", true);
         engine.setQuestionEnabledById("question_9_nafta", false);
@@ -73,8 +67,6 @@ function onAnswerPicked(engine, answerPicked) {
         engine.setQuestionEnabledById("question_9_nafta", true);
         engine.setQuestionEnabledById("question_9_altnafta", false);
     }
-    }
-    if (engine.getQuestions+1 == 13) {
     if ((engine.getAnswers().includes(5) || engine.getAnswers().includes(6)) && engine.getAnswers().includes(48)) {
     engine.setQuestionEnabledById("insert_yeltsin_friendly", true);
         engine.setQuestionEnabledById("insert_yeltsin_unfriendly", false);
@@ -82,8 +74,7 @@ function onAnswerPicked(engine, answerPicked) {
         engine.setQuestionEnabledById("insert_yeltsin_unfriendly", true);
         engine.setQuestionEnabledById("insert_yeltsin_friendly", false);
     }
-    }
-    if (engine.getQuestions+1 == 14) {
+
     if (engine.getAnswers().includes(10)) {
     if (engine.getAnswers().includes(12)) {
     engine.setQuestionEnabledById("budget_normal_win", true);
@@ -122,7 +113,6 @@ function onAnswerPicked(engine, answerPicked) {
     } else {
     engine.setQuestionEnabledById("budget_reich_unambition_fail", true);
     engine.setQuestionEnabledById("budget_reich_unambition_win", false);
-    }
     }
     }
     }
