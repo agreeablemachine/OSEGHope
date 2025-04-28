@@ -6697,14 +6697,206 @@
                 {
                     "id": "insert_yeltsin_friendly",
                     "description": "Just a few years ago, the U.S. and Russia were mortal enemies, teetering on the edge of mutual destruction. Now, at what some are calling ''the End of History,'' your friendship with Boris Yeltsin is so close that critics and supporters alike compare it to a love affair. Standing here in the Kremlin, with Russia’s fragile democracy hanging in the balance, and its economy lurching through a painful transition, what will you prioritize in these negotiations?",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 64,
+                            "description": "First, I’ll talk about disarming the nuclear missiles still housed in the old SSRs. Then, I’ll ask President Yeltsin for a mutual detargeting of both our nations' nukes. It’s a simple gesture, sure, but one that shows we’re serious about easing tensions and continuing the work of peace in this brave new world.",
+                            "feedback": "This is a solid, stabilizing deal that satisfies everyone involved. However, you’re facing GOP criticism over how we’ll verify that Russia kept their missiles detargeted. Still, you trust Boris, right?",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.008
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": -0.2,
+                                    "weight": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 65,
+                            "description": "I’m not just looking to disarm the former SSRs’ bombs, I want to go the extra mile. START III. Boris already signed off on START II, and I’m confident he’ll be open to continued mutual disarmament, so long as we approach him in good faith, with a little honesty and patience.",
+                            "feedback": "You were right in your instinct, Slick. After a stretch of late nights and quiet negotiations, your signature joins Boris’s on the START III treaty, mere ink on paper, perhaps, but backed by real friendship and a growing bond between two peoples. The headlines might still chase the muck, but history will remember this day, the slow, deliberate steps toward a safer, nuclear-free world you’re walking together.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.008
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.01
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": 0.4,
+                                    "weight": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 66,
+                            "description": "It always comes back to the economy. I’ll talk with Boris about finalizing the economic aims and commitments of the Gore–Chernomyrdin Commission, trade, cooperation, and long-term growth. These are the kinds of things that build trust, brick by brick.",
+                            "feedback": "Trade and investment deals, improved energy productivity, and even ,more formal plans for an international space station are finalized during the talks. Before you fly home, the two of you share a warm, playful kiss, cheek to cheek.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.005
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 29,
+                                    "stateId": 181,
+                                    "amount": 0.2,
+                                    "weight": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 67,
+                            "description": "Call it a tough gut feeling, but I can’t in good conscience let the former SSRs denuclearize. It’s gonna be a pain in the ass convincing him, but honestly, I think I can get to him.",
+                            "feedback": "Boris is deeply offended by the implication, and he doesn’t hide it. You’ve suggested, however carefully, that Russia might not always be the partner it claims to be. That perhaps its former republics are safer keeping their nukes. Yeltsin storms out. By morning, you and the other powers are out of Moscow, and the whole framework is back to square one.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.01
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": -0.7,
+                                    "weight": 2
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": false
                 },
                 {
                     "id": "insert_yeltsin_unfriendly",
                     "description": "Just a few years ago, the U.S. and Russia were mortal enemies, teetering on the edge of mutual destruction. Now, at what some are calling ''the End of History,'' your friendship with Boris Yeltsin is so close that critics and supporters alike compare it to a love affair. Standing here in the Kremlin, with Russia’s fragile democracy hanging in the balance, and its economy lurching through a painful transition, what will you prioritize in these negotiations?",
-                    "answers": [],
+                    "answers": [
+                        {
+                            "id": 64,
+                            "description": "First, I’ll talk about disarming the nuclear missiles still housed in the old SSRs. Then, I’ll ask President Yeltsin for a mutual detargeting of both our nations' nukes. It’s a simple gesture, sure, but one that shows we’re serious about easing tensions and continuing the work of peace in this brave new world.",
+                            "feedback": "This is a solid, stabilizing deal that satisfies everyone involved. However, you’re facing GOP criticism over how we’ll verify that Russia kept their missiles detargeted. Still, you trust Boris, right?",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.008
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": -0.2,
+                                    "weight": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 68,
+                            "description": "I’m not just looking to disarm the former SSRs’ bombs, I want to go the extra mile. START III. Boris already signed off on START II, and I’m confident he’ll be open to continued mutual disarmament, so long as we approach him in good faith, with a little honesty and patience.",
+                            "feedback": "''I could agree to a new START, yes-but with what I see from your policy, I cannot sign in clear mind.'' Darn. You knew it might fall apart, but hearing it out loud still stings. The groundwork was there: honest dialogue, long nights, cautious optimism. But not every seed takes root. Still, it doesn’t undo what came before. START II holds, and the denuclearization of the former SSRs continues. Maybe next time, Billy.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.008
+                                },
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 78,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.0025
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": 0.4,
+                                    "weight": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 66,
+                            "description": "It always comes back to the economy. I’ll talk with Boris about finalizing the economic aims and commitments of the Gore–Chernomyrdin Commission, trade, cooperation, and long-term growth. These are the kinds of things that build trust, brick by brick.",
+                            "feedback": "Trade and investment deals, improved energy productivity, and even ,more formal plans for an international space station are finalized during the talks. Before you fly home, the two of you share a warm, playful kiss, cheek to cheek.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": 0.005
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 29,
+                                    "stateId": 181,
+                                    "amount": 0.2,
+                                    "weight": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 67,
+                            "description": "Call it a tough gut feeling, but I can’t in good conscience let the former SSRs denuclearize. It’s gonna be a pain in the ass convincing him, but honestly, I think I can get to him.",
+                            "feedback": "Boris is deeply offended by the implication, and he doesn’t hide it. You’ve suggested, however carefully, that Russia might not always be the partner it claims to be. That perhaps its former republics are safer keeping their nukes. Yeltsin storms out. By morning, you and the other powers are out of Moscow, and the whole framework is back to square one.",
+                            "answerEffects": [
+                                {
+                                    "answerEffectType": "Global",
+                                    "candidateId": 77,
+                                    "issueId": 27,
+                                    "stateId": 181,
+                                    "amount": -0.01
+                                },
+                                {
+                                    "answerEffectType": "TctIssue",
+                                    "candidateId": 77,
+                                    "issueId": 30,
+                                    "stateId": 181,
+                                    "amount": -0.7,
+                                    "weight": 2
+                                }
+                            ]
+                        }
+                    ],
                     "keepInPlaceIfQuestionsShuffled": true,
                     "enabled": false
                 },
