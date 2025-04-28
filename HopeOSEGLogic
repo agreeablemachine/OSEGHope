@@ -75,6 +75,48 @@ function onAnswerPicked(engine, answerPicked) {
         engine.setQuestionEnabledById("insert_yeltsin_friendly", false);
     }
 
+    if (engine.getAnswers().includes(10)) {
+    if (engine.getAnswers().includes(12)) {
+    engine.setQuestionEnabledById("budget_normal_win", true);
+    engine.setQuestionEnabledById("budget_normal_fail", false);
+    } else {
+    engine.setQuestionEnabledById("budget_normal_fail", true);
+    engine.setQuestionEnabledById("budget_normal_win", false);
+    }
+    } else if (engine.getAnswers().includes(8)) {
+    if (engine.getAnswers().includes(16)) {
+    engine.setQuestionEnabledById("budget_bentsen_balance", true);
+    engine.setQuestionEnabledById("budget_bentsen_deficit", false);
+    engine.setQuestionEnabledById("budget_bentsen_cuts", false);
+    } else if (engine.getAnswers().includes(15)) {
+    engine.setQuestionEnabledById("budget_bentsen_deficit", true);
+    engine.setQuestionEnabledById("budget_bentsen_balance", false);
+    engine.setQuestionEnabledById("budget_bentsen_cuts", false);
+    } else if (engine.getAnswers().includes(14)) {
+    engine.setQuestionEnabledById("budget_bentsen_cuts", true);
+    engine.setQuestionEnabledById("budget_bentsen_balance", false);
+    engine.setQuestionEnabledById("budget_bentsen_deficit", false);
+    }
+    } else if (engine.getAnswers().includes(9)) {
+       if (engine.getAnswers().includes(17) || engine.getAnswers().includes(18)) {
+        if (ReichPoints >= 3) {
+    engine.setQuestionEnabledById("budget_reich_ambition_win", true);
+    engine.setQuestionEnabledById("budget_reich_ambition_fail", false);
+       } else {
+    engine.setQuestionEnabledById("budget_reich_ambition_fail", true);
+    engine.setQuestionEnabledById("budget_reich_ambition_win", false);
+       }
+    } else if (engine.getAnswers().includes(19)) {
+    if (ReichPoints >= 3) {
+    engine.setQuestionEnabledById("budget_reich_unambition_win", true);
+    engine.setQuestionEnabledById("budget_reich_unambition_fail", false);
+    } else {
+    engine.setQuestionEnabledById("budget_reich_unambition_fail", true);
+    engine.setQuestionEnabledById("budget_reich_unambition_win", false);
+    }
+    }
+    }
+
 
 // Variable Wall
 
