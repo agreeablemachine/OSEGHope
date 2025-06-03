@@ -30,12 +30,12 @@
                 }
             ],
             "description": "<p>William Jefferson Clinton came from nowhere. From a house off Park Street in Hope, Arkansas, to the highest office in the land, his journey feels almost like a Hollywood script. To get here, he challenged conventions and broke traditions, often hand in hand with Hillary, branding himself as a ''New Democrat'', the antidote to the liberal losers of days gone by.</p> <p>He launched a crusade for change, not just against Republicans, but against the ossified politics of his own party. If he can lead the nation while staying true to these principles, re-election should be easy. But public opinion is fickle — every bit as slippery as his own charm. Even in these good times, the Big Dog must tread carefully to avoid being dragged into the mire of Washington, where the muck can swallow a man whole.</p>",
-            "imageUrl": "https://files.catbox.moe/1q3s7q.png",
+            "imageUrl": "https://i.imgur.com/fOQHe72.png",
             "runningMateIds": [
                 81
             ],
             "startingGlobalMultiplier": 1,
-            "bannerImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Clinton_Gore_96.svg/1920px-Clinton_Gore_96.svg.png"
+            "bannerImageUrl": "https://files.catbox.moe/o400gd.png"
         },
         {
             "id": 78,
@@ -148,7 +148,7 @@
             "color": "#0000f5",
             "issueScores": [],
             "description": "<p>Al Gore has always dedicated himself to the people he serves. In Congress, he’s been labeled at various times as a business-savvy Atari Democrat, a Southern-fried conservative, and an environmentalist crusader. The truth? He has always aligned himself with what he believes to be best for the country, even if it meant straddling factions. The senator’s son, a Vietnam vet, has always cared more about duty than some silly label.  <p><p> When he was added to the ticket, pundits were baffled, two young Southern Democrats? Yet, alongside Slick Willy, he charmed the nation and helped usher in a new political era. Now, from his seat at the Naval Observatory, his role in the administration remains undefined. But one thing is clear: he is the natural heir apparent, and, like it or not, he will remain by his boss’s side. \n\n</p>",
-            "imageUrl": "https://files.catbox.moe/hyyugf.png",
+            "imageUrl": "https://i.imgur.com/nj9ev85.png",
             "runningMateIds": [],
             "startingGlobalMultiplier": 1
         }
@@ -8201,23 +8201,24 @@
         }
     ],
     "theme": {
-        "backgroundImageUrl": "https://files.catbox.moe/jhcip6.png",
+        "backgroundImageUrl": "https://i.imgur.com/T1iDVXu.jpeg",
         "backgroundColor": "",
         "headerImageUrl": "https://files.catbox.moe/t43ts8.png",
-        "primaryGameWindowColor": "#5788ed",
-        "secondaryGameWindowColor": "#4e84f4",
-        "primaryGameWindowTextColor": "",
+        "primaryGameWindowColor": "#005c83",
+        "secondaryGameWindowColor": "#006189",
+        "primaryGameWindowTextColor": "#000000",
         "secondaryGameWindowTextColor": "#ffffff",
         "bottomBannerBackgroundColor": "",
         "bottomBannerTextColor": "",
         "advisorImage": "https://files.catbox.moe/j9lmic.gif",
         "quote": "",
-        "questionTextColor": "#000000"
+        "questionTextColor": "#000000",
+        "descriptionWindowBackgroundColor": "#fbfdfe"
     },
     "hasStateVisits": true,
     "scenarioName": "Hope Megadrive",
     "scenarioDescription": "<p>Bill Clinton cannot believe he’s here. Gliding through town halls and across stages nationwide, he shared a modern vision, a ''third way'' forward. By uniting America’s diverse strands, he built a broad coalition that carried him through the wreckage of recession and into the White House, toppling the once-unshakable George Bush. \n</p><p>Now he sits in the same office once held by his hero, John F. Kennedy. He looks out the window and remembers where, and why, he started: <b style=\"color:#4470F5; font-size: 15px;\">Hope</b>. The scandals, the pressure, the questions, they come with the territory. He’s learned that. But he understands the stakes now: to prove he’s not just the boy who made it out of Arkansas, but the man who can lead the free world, and change it.</p>",
-    "scenarioImageUrl": "https://files.catbox.moe/y6rfhe.png",
+    "scenarioImageUrl": "https://files.catbox.moe/jf9it0.png",
     "credits": "by the Comeback Kids",
     "music": [
         {
@@ -8226,14 +8227,14 @@
             "imageUrl": "https://m.media-amazon.com/images/I/61suRnNcXeL._UF1000,1000_QL80_.jpg"
         },
         {
-            "url": "https://audio.jukehost.co.uk/JJZCEsKd9jgmEsE4N11eAE0OGcpJESFn",
-            "displayName": "For Once In My Life - Stevie Wonder",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3e/Foronceinmylife.jpg"
+            "url": "https://audio.jukehost.co.uk/rN5nt2BnxsrhpPVw7SpJgeIEvHBUbhbn",
+            "displayName": "Stay (Faraway, So Close!) - U2",
+            "imageUrl": "https://i.discogs.com/XBWmPMIi3CaR3VcWYctlbM5NBtz2zX79FVniG1t9RFM/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MTcw/ODItMTU1MjIwMTM4/Mi00NzI2LmpwZWc.jpeg"
         },
         {
-            "url": "https://audio.jukehost.co.uk/88xivB4P8IM6dvEHLISGOvKSFlzqbubM",
-            "displayName": "Uptown Girl  Billy Joel",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/01/Uptown_Girl_joel.jpg"
+            "url": "https://files.catbox.moe/d6ighi.mp3",
+            "displayName": "Lounge Act - Nirvana",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg"
         },
         {
             "url": "https://audio.jukehost.co.uk/kndnZicFxfNmpFL1oZm1zHfsuQOMt0k8",
@@ -8390,7 +8391,7 @@
         },
         {
             "key": "Hatch",
-            "value": ""
+            "value": "<img src=https://files.catbox.moe/3qmd92.png> Former chair of the Judiciary. A conservative, but not a bomb-thrower. Carries weight."
         },
         {
             "key": "Orrin Hatch",
@@ -8399,14 +8400,6 @@
         {
             "key": "Al D'Amato",
             "value": "<img src=https://files.catbox.moe/owbw2h.png> Senator Pothole"
-        },
-        {
-            "key": "Gingrich",
-            "value": "<img src=https://files.catbox.moe/6r0iky.png> Speaker of the House, Satan in the flesh"
-        },
-        {
-            "key": "Newt",
-            "value": "<img src=https://files.catbox.moe/6r0iky.png> Speaker of the House, Satan in the flesh"
         },
         {
             "key": "Limbaugh",
@@ -8487,8 +8480,124 @@
         {
             "key": "Byron ''Whizzer'' White",
             "value": "<img src=https://files.catbox.moe/jo8wla.png> Appointed by JFK, but never voted like it. Dissented on Roe, backed the death penalty, never once smiled."
+        },
+        {
+            "key": "Yeltsin",
+            "value": "<img src=https://files.catbox.moe/5iue9q.png> Elected, erratic, and armed. Friend or Foe?"
+        },
+        {
+            "key": "Castro",
+            "value": "<img src=https://files.catbox.moe/0e1ktt.png> A revolutionary, a dictator, and a headache that won’t go away."
+        },
+        {
+            "key": "Kim Il Sung",
+            "value": "<img src=https://files.catbox.moe/hhb51g.png> Supreme Leader of North Korea, scum of the Earth, father of the dynasty, architect of starvation, and a relic of Stalin's world"
+        },
+        {
+            "key": "Milosevic",
+            "value": "<img src=https://files.catbox.moe/q8fxay.png> The last communist dictator in Europe, and would-be peacemaker turned war criminal."
+        },
+        {
+            "key": "Saddam",
+            "value": "<img src=https://files.catbox.moe/qats12.png> President of Iraq, Ba'athist strongman, butcher of the Kurds, and a modern-day Mussolini with oil wells and palaces."
+        },
+        {
+            "key": "Zyuganov",
+            "value": "<img src=https://files.catbox.moe/eg8lxn.png> The other path. Gorbachev or Stalin?"
+        },
+        {
+            "key": "Rwanda",
+            "value": "<img src=https://files.catbox.moe/t6m418.png> A genocide is underway. Hundreds of thousands of Tutsis are being hunted and slaughtered by Hutu extremists"
+        },
+        {
+            "key": "Raoul Cédras",
+            "value": "<img src=https://files.catbox.moe/cgqnw6.png> Dictator of Haiti, trained in Georgia, backed by the CIA, and now blamed for every corpse that washes up in the Caribbean."
+        },
+        {
+            "key": "Vietnam",
+            "value": "<img src=https://i.imgur.com/7SBxDZa.png> Thank God I dodged"
+        },
+        {
+            "key": "Salinas",
+            "value": "<img src=https://files.catbox.moe/3ntwda.png> An actual economist running the country, the possibly illegitimate, pro-NAFTA president of Mexico."
+        },
+        {
+            "key": "Chrétien",
+            "value": "<img src=https://files.catbox.moe/uiijah.png> The liberal, French-Canadian Prime Minister of Snowland, fluent in speaking from both sides of his mouth."
+        },
+        {
+            "key": "Rabin",
+            "value": "<img src=https://files.catbox.moe/klnmr4.png> A soldier fighting for peace"
+        },
+        {
+            "key": "Arafat",
+            "value": "<img src=https://files.catbox.moe/d85z6t.png> The Palestinian Che Guevara"
+        },
+        {
+            "key": "Netanyahu",
+            "value": "<img src=https://files.catbox.moe/lratin.png> Who the fuck does he think he is? Who’s the fucking superpower here?"
+        },
+        {
+            "key": "Shimon Peres",
+            "value": "<img src=https://files.catbox.moe/7ebrkk.png> Yitzakh Rabin's greatest friend and rival."
+        },
+        {
+            "key": "Hafez Al-Assad",
+            "value": "<img src=https://files.catbox.moe/u7na54.png> The second-worst monster in the Middle East"
+        },
+        {
+            "key": "Assad",
+            "value": "<img src=https://files.catbox.moe/u7na54.png> The second-worst monster in the Middle East"
+        },
+        {
+            "key": "Piss Christ",
+            "value": "<img src=https://files.catbox.moe/vwsq4r.png> A photo of a crucifix submerged in the artist’s urine. Meant as a commentary on the commercialization of faith, but in Buchanan’s eyes, proof the White House is funding a war on religion."
+        },
+        {
+            "key": "bizarre laugh",
+            "value": "<img src=https://files.catbox.moe/sizudl.png> Is he okay?"
+        },
+        {
+            "key": "Dole-Gingrich",
+            "value": "<img src=https://files.catbox.moe/rf4an7.png> The ticket"
+        },
+        {
+            "key": "ISS",
+            "value": "<img src=https://files.catbox.moe/vdwhqp.png> A science project in orbit, if Congress lets it live. A Cold War handshake held together by duct tape, dreams, and $100 billion."
+        },
+        {
+            "key": "Texas Super Collider",
+            "value": "<img src=https://files.catbox.moe/ebapto.png> Half a hole in Texas, meant to unlock the universe. Billions spent, tunnels carved—but will Congress finish the job or pull the plug?"
+        },
+        {
+            "key": "fourth fucking marriage",
+            "value": "<img src=https://files.catbox.moe/kbsqd3.png> 3 girls and a Cher."
+        },
+        {
+            "key": "heart of Chicago",
+            "value": "<img src=https://files.catbox.moe/9rtl3i.png> Host of the '96 DNC, where you'll be crowned, in front of the world."
+        },
+        {
+            "key": "inauguration",
+            "value": "<img src=https://files.catbox.moe/n8lhdg.png> The moment it began. Cold wind, warm crowd. Fleetwood Mac in your ears, hope in the air, and the Baby Boomer dream on your shoulders."
+        },
+        {
+            "key": "AFDC",
+            "value": "<img src=https://files.catbox.moe/4svci9.png> Aid to Families with Dependent Children. The current welfare system, conservatives hate it, moderates are losing patience."
+        },
+        {
+            "key": "Lyndon LaRouche",
+            "value": "<img src=https://files.catbox.moe/gjmky1.png> Somewhere between Kafka and cable access. A convicted felon who thinks the Queen of England runs the drug trade."
+        },
+        {
+            "key": "fever dreams",
+            "value": "<img src=https://files.catbox.moe/mrzh3m.png> Best-selling VHS, The Clinton Chronicles accuses you of drug smuggling, adultery, and murder."
+        },
+        {
+            "key": "Gore–Chernomyrdin",
+            "value": "<img src=https://files.catbox.moe/2gzprl.png> U.S.–Russia task force to promote cooperation in energy, trade, science, and a multitude of other issues."
         }
     ],
-    "furtherReading": "<h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4><a href=\\\"https://archive.org/details/presidentialfoll00hall\\\" target=”_blank”>Ralph Z. Hallow & Bradley S. O'Leary - Presidential Follies : Those Who Would be President and Those Who Should Think Again!</a></br><a href=\\\"https://www.amazon.com/Gatekeepers-White-Chiefs-Define-Presidency/dp/0804138249\\\" target=”_blank”>Chris Whipple - The Gatekeepers: How the White House Chiefs of Staff Define Every Presidency</a></br><a href=\\\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\\\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>2000/Second Term Sources</h4><a href=\\\"https://p2000.us/cands.html\\\" target=”_blank”>Democracy in Action 2000</a></br><a href=\\\"https://www.amazon.com/Vast-Conspiracy-Scandal-Brought-President-ebook/dp/B009UAO1KQ\\\" target=”_blank”>Jeffery Toobin - A Vast Conspiracy: The Real Story of the Sex Scandal That Nearly Brought Down a President</a></br><a href=\\\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\\\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\\\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\\\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\\\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\\\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\\\"http://www.vanityfair.com/news/2004/10/florida-election-2000\\\" target=”_blank”>The Path to Florida</a></br><a href=\\\"http://www.historyplace.com/speeches/gore-concedes.htm\\\" target=”_blank”>Al Gore Concedes the 2000 Election</a>\n",
+    "furtherReading": "if we wanna put some sorta message or something here here's the space for that blah blah blah<h4 style=\\\"margin-top: 0.5em;\\\">General Overviews</h4></a></br><a href=\"https://www.amazon.com/Fabulous-Failure-Presidency-Transformation-Capitalism-ebook/dp/B0BYRP2G4X\\\" target=”_blank”>Nelson Lichtenstein and Judith Stein - A Fabulous Failure: The Clinton Presidency and the Transformation of American Capitalism</a></br>     \n<a href=\"https://www.amazon.com/Inside-Clinton-White-House-History/dp/0190605464\\\" target=”_blank”>Russell L. Riley - Inside the Clinton White House: An Oral History</a></br><a href=\"https://www.amazon.com/Survivor-Bill-Clinton-White-House/dp/0375760849\\\" target=”_blank”>John Harris - The Survivor: Bill Clinton in the White House</a><br><a href=\"https://web.archive.org/web/20040808100222/http://www.cnn.com/ALLPOLITICS/1996/candidates\\\" target=”_blank”>CNN AllPolitics</a><h4>Specific Topics</h4>     \n<a href=\\\"https://archive.org/details/presidentialfoll00hall\\\" target=”_blank”>Ralph Z. Hallow & Bradley S. O'Leary - Presidential Follies : Those Who Would be President and Those Who Should Think Again!</a></br><a href=\\\"https://www.amazon.com/Gatekeepers-White-Chiefs-Define-Presidency/dp/0804138249\\\" target=”_blank”>Chris Whipple - The Gatekeepers: How the White House Chiefs of Staff Define Every Presidency<a href=\\\"https://www.amazon.com/Vast-Conspiracy-Scandal-Brought-President-ebook/dp/B009UAO1KQ\\\" target=”_blank”>Jeffery Toobin - A Vast Conspiracy: The Real Story of the Sex Scandal That Nearly Brought Down a President</a></br>",
     "questionsPerVisit": 2
 }
